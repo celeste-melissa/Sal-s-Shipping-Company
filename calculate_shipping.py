@@ -22,7 +22,7 @@ print(format_money(ground_shipping_cost))
 
 # Premium Ground Shipping
 premium_ground_cost = 125.00
-print("Premium Ground Shipping: $" + format_money(premium_ground_cost))
+print("Premium Ground Shipping: $", format_money(premium_ground_cost))
 
 # Drone Shipping
 if weight <= 2:
@@ -39,8 +39,8 @@ print(format_money(drone_shipping_cost))
 
 # Determine the cheapest shipping method by comparing all three shipping options - print the result
 if ground_shipping_cost < premium_ground_cost and  ground_shipping_cost < drone_shipping_cost:
-    print("Ground shipping is your cheapest option: " + format_money(ground_shipping_cost) + ".")
+    print("Ground shipping is your cheapest option: ", format_money(ground_shipping_cost) + ".")
 elif premium_ground_cost < ground_shipping_cost and premium_ground_cost < drone_shipping_cost:
-  print("Premium ground shipping is your cheapest option: " + format_money(premium_ground_cost) + ".")
+  print("Premium ground shipping is your cheapest option: ", format_money(premium_ground_cost) + ".")
 else:
-  print("Drone shipping is your cheapest option: " + format_money(drone_shipping_cost) + ".")
+  print("Drone shipping is your cheapest option: ", format_money(drone_shipping_cost) + ".")
