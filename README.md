@@ -10,3 +10,7 @@ Sal’s Shippers has several different options for a customer to ship their pack
 Ground Shipping, which is a small flat charge plus a rate based on the weight of your package.
 Ground Shipping Premium, which is a much higher flat charge, but you aren’t charged for weight.
 Drone Shipping (new), which has no flat charge, but the rate based on weight is triple the rate of ground shipping.
+
+### Shipping Prices: 
+![Shipping Prices](https://github.com/user-attachments/assets/26ce24af-bd62-478f-9ede-cfd1862a5d58)
+
